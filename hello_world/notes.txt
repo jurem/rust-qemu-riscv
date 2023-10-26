@@ -1,0 +1,13 @@
+Install RISC-V support:
+* rustup toolchain install nightly
+* rustup target add riscv32imac-unknown-none-elf
+* rustup override set nightly
+
+Run:
+* cargo run
+* Qemu: Ctrl-A X ... to quit qemu
+
+Resources:
+* https://www.meyerzinn.tech/posts/2023/03/04/rust-operating-system-intro/
+* http://osblog.stephenmarz.com/ch2.html
+
